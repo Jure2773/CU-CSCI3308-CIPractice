@@ -1,4 +1,4 @@
 language: c
 compiler:
  -gcc
-script: make clean && make dep && make test
+script: make clean && sudo apt-get update && make dep && make test
